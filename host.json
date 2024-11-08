@@ -14,8 +14,13 @@
   },
   "extensions": {
     "blobs": {
-        "maxDegreeOfParallelism": 4,
-        "poisonBlobThreshold": 1
-    }
-}
+      "maxDegreeOfParallelism": 4,
+      "poisonBlobThreshold": 1
+    },
+    "cosmosDB": {
+      "connectionMode": "Gateway",
+      "userAgentSuffix": "MyDesiredUserAgentStamp"
+  }
+  }
+  
 }

@@ -66,7 +66,7 @@ def predict_image(fp):
         "prediction": softmax.max().item(),
     }
 
-    logging.info(f"returning {response}")
+    # logging.info(f"returning {response}")
     # print(response)
     return response
 
